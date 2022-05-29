@@ -14,7 +14,7 @@ export default {
     passwordChange : () => HOST + ACCOUNTS + 'password/change/',
     getUserProfieInfo : (username) => HOST + ACCOUNTS + 'profile/'+ username + '/',
     follow : (username) => HOST + ACCOUNTS + username + '/follow/',
-    followInfo : (username) => HOST + ACCOUNTS + username + '/follow_info/'
+    followInfo : (username) => HOST + ACCOUNTS + username + '/follow_info/',
   },
 
   movies : {
