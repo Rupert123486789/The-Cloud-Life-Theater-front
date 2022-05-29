@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+.review-detail-container{
+  font-family: 'Gamja Flower', cursive;
+
+  
+}
+
+
+.delte-modal {
+
+  & .vs-dialog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width : 800px) {
+  .review-detail-container{
+    min-width: 780px;
+    min-height: 400px;
+
+    .review-detail-textarea-container{
+      min-height: 350px !important;
+      min-width: 350px !important;
+    }
+  }
+}
+
+.review-detail-textarea-container{
+  border-radius: 20px;
+  padding: 1.0rem;
+}
+
+.review-info-container{
+
+  & h5 {
+    font-size: 1.0rem;
+  }
+
+  & span {
+    font-weight: bold;
+  }
+}

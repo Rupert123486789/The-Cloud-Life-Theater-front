@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+.detail-movie-title{
+  font-size: 3.5rem;
+  color: #F4BFBF;
+  font-weight: bold;
+}
+
+.review-detail-Total-container{
+  font-family: 'Gamja Flower', cursive;
+
+  width: 60%;
+  margin-top: 6vh;
+  margin-bottom: auto;
+
+  & .review-detail-textarea-container{
+    border-radius: 20px;
+    padding: 1.0rem;
+    min-height: 400px;
+  }
+
+  & .vs-button{
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width:700px) {
+
+  .review-detail-Total-container{
+  
+    width: 90% !important;
+  }
+  
+}
+
+.delete-modal{
+
+  & .vs-dialog--notCenter{
+    font-family: 'Gamja Flower', cursive;
+  }
+
+  & .vs-dialog{
+    width: auto !important;
+    min-width: 0 !important;
+  }
+
+  @media (max-width:600px) {
+
+    & .vs-dialog {
+      min-width: auto !important;
+    }
+  }
+}
+
+.review-function-btn-container{
+  margin-bottom: 4.0rem;
+}
+

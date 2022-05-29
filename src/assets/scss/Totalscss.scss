@@ -1,0 +1,49 @@
+
+//모달 관련 css
+
+.not-scroll {
+  overflow: hidden;
+}
+
+.modal_custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+  
+}
+.modal_custom__window {
+    //position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%,-50%);
+    
+    height: 90%;
+    width: 65%;
+    overflow-y: auto;
+    z-index: 11;
+
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    
+    &::-webkit-scrollbar{
+      display: none;
+    }
+}
+
+.modal_custom__overlay {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top:0;
+   left: 0;
+   z-index: 1;
+}
+
+// ..

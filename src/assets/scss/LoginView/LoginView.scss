@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+.login-container {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  width: 500px !important;
+  border: 0.5px solid lightgray;
+  border-radius: 50px;
+  font-family: 'Dongle', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.vs-button {
+
+  font-size: 30px;
+}
+.vs-input__label {
+  font-family: 'Dongle', sans-serif !important;
+  font-size: 1.5rem !important;
+}
+input:first-of-type {
+  width: 300px ;
+  margin-bottom: 0.8rem;
+  font-size: 2.0rem;
+}
+
+input[type="password"] {
+  font-size: 2.0rem;
+}
+
+.vs-input__message {
+  font-size: 1.5rem;
+  
+}
+
+.password-check-message{
+  font-size: 24px;
+  color:red;
+}
+
+.name-check-message {
+  color:#46c93a;
+  font-size: 24px;
+}

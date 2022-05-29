@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import '@/assets/scss/TotalVuesaxCustom.scss';
+@import '@/assets/scss/bootstrapCustom.scss';
+
+
+@keyframes post-ani {
+  25% {
+      transform: rotate(2deg) scale(1.01);
+      opacity: 0.8;
+  }
+
+  50% {
+      transform: rotate(0deg) scale(1);
+      opacity: 0.4;
+  }
+
+  75% {
+      transform: rotate(-2deg) scale(1.01);
+      opacity: 0.1;
+  }
+}
+
+
+
+
+div {
+    box-sizing: border-box;
+  }
+
+.actor-img-container{
+  position: relative;
+  margin-right: 2.5rem;
+  
+  
+  & img {
+    border-radius: 20px;
+  }
+}
+.actor-img-name{
+  display: none;
+}
+.actor-img:hover {
+  filter: brightness(70%);
+  // transform:scale(1.2);             /*  default */
+  -webkit-transform:scale(1.2);     /*  크롬 */
+  -moz-transform:scale(1.2);       /* FireFox */
+  -o-transform:scale(1.2);           /* Opera */
+
+  & + .actor-img-name {
+    position: absolute;
+    display: inline-block;
+    bottom:1.2rem;
+    left: 3px;
+  }
+}
+
+.playlist-btn-container i {
+  color:black !important;
+  font-size: 50px !important;
+
+}
+
+.container-custom {
+  width:100%;
+  border-radius: 10px;
+  font-family: 'Jua', 'sans-serif'; 
+  color:white;
+  background-color: black;
+  padding: 1rem;
+}
+
+.like-container {
+  border: 1px solid gray;
+  height: 60px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+
+  &:hover {
+    
+	  animation: post-ani 0.8s linear 1;
+    animation-iteration-count: infinite;
+  }
+
+  .like-count {
+    color: black;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+  }
+}
+
+.movie-etc-info-container span{
+  font-weight: bold;
+  font-size: 1.7rem;
+
+  & .movie-title{
+    font-size: 2.5rem !important;
+  }
+}
+.crew-container img {
+  position: relative;
+  margin-right: 2.5rem;
+}
+
+
+.v-label{
+  font-size: 20px !important;
+}
+
+.icon-label {
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 100%;
+
+  img {
+    width: 80%;
+  }
+}
+
+.submit-btn-container{
+  width: 120px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+// 유튜브 동영상 자동 이미지 조절
+#player-container {
+  position:relative; padding-bottom:60%; padding-top: 30px; 
+}
+#player-container iframe{
+  position:absolute; top:0; left:0; width:100%; height:100%;
+}
+
+//리뷰 보러가는 버튼 호버시 애니메이션
+.vs-button:hover {
+  color: #1A5CFF;
+}
+
+.comment-submit-btn:hover, .submit-btn-container:hover{
+  color: #F9EBC8;
+  border-color: #F9EBC8;
+  
+}
+

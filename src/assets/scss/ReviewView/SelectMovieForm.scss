@@ -1,0 +1,48 @@
+@import '@/assets/scss/bootstrapCustom.scss';
+@import '@/assets/scss/Totalscss.scss';
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+.vs-dialog__content {
+  max-height: calc(85vh) !important;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+.total-movies-container {
+  font-family: 'Jua', sans-serif;
+
+  & .vs-button__content{
+    font-size: 1.2rem;
+  }
+  
+}
+
+#select-movie-container {
+  font-family: 'Jua', sans-serif;
+
+  & .v-rating {
+    padding-top: -2px;
+    height: 50%;
+  }
+
+  & .vs-button{
+    background-color: transparent;
+  }
+
+  & .vs-button__content{
+    display: flex;
+    align-items: center;
+  }
+
+  & .vs-card__title{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 1.3rem;
+  }
+
+  
+}

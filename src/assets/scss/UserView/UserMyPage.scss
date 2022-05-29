@@ -1,0 +1,44 @@
+@import '@/assets/scss/bootstrapCustom.scss';
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+@media (min-width:1400px) {
+  
+  .total-user-my-page-container{
+    width: 60% !important;
+    
+    & .page-title {
+      font-family: 'Jua', sans-serif;
+    }
+  }
+
+}
+
+.user-my-page-container{
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.8rem;
+  margin-top: 5.0rem;
+
+  & span {
+    font-weight: bold;
+    font-size: 2.0rem;
+    color: #92B4EC;
+  }
+
+  & .change-btn {
+    height: 3.2rem;
+
+  }
+
+  & .sub-title {
+    font-size: 3.0rem !important;
+    color: #FFD24C;
+  }
+}
+
+.user-info-container {
+  margin-bottom: 5.0rem;
+}
+
+.vs-dialog{
+  font-family: 'Jua', sans-serif !important;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.homeview-container{
+  font-family: 'Black Han Sans', sans-serif;
+
+}
+
+@media (max-width : 1080px) {
+  .first-home-container{
+    margin-bottom: 0rem !important;
+    position: inherit !important;
+    & .card-first-container{
+      position: relative !important;
+      
+    }
+  }
+}
+
+.first-home-container{
+  position: relative;
+  margin-bottom: 17.0rem;
+
+  & .card-first-container{
+    bottom: -20%;
+    left: 0;
+    position: absolute;
+    width:99%;
+    background-color: transparent;
+  }
+}
+
+// .card-first-container{
+//   margin-top : -200px;
+//   background-color: transparent !important;
+
+// }
+.divider {
+  margin: 10.0rem 0;
+  
+}
+
+.movie-group-title{
+  font-size: 3.5rem;
+  margin-left: 3.8rem;
+}
+
+.card-background-container{
+  color: white;
+  
+  background-color: rgba( 255, 255, 255, 0.1 );
+  
+}
+
+.vs-card__group-cards {
+
+  padding-top: 0px !important;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  & .vs-card__title h3 {
+    font-size: 1.5rem;
+  }
+
+  &::-webkit-scrollbar{
+    display: none !important; /* Chrome, Safari, Opera*/
+  }
+
+  
+  & .vs-card__img{
+    max-height: 350px;
+  }
+  & img {
+    min-height: 350px !important;
+
+
+  }
+}

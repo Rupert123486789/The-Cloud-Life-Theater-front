@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@600&display=swap');
+
+
+.movie-comment-detail{
+
+  & i{
+    color: white !important;
+    font-size: 3.0rem !important;
+  }
+
+  & .comment-rating-container{
+    border: 1px solid white;
+    border-radius: 100%;
+    max-width: 70px;
+    min-width: 70px;
+    height: 70px !important;
+    color: #FFF220;
+  }
+
+  & .vs-button {
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  
+  & .vs-button__content{
+    font-size: 0.9rem !important;
+    padding: 0 !important;
+    color: wheat;
+    font-family: 'Hahmlet', serif;
+  }
+}
+
+.comment-update-btn-container{
+  margin-left: 2.5rem;
+}
+
+.comment-user-info-container{
+  max-width: 100px;
+  min-width: 100px;
+
+  & .movie-comment-user-id{
+    word-break:break-all;
+  }
+}

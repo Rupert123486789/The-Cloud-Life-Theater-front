@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+
+.create-movie-title{
+  color: #F4C7AB;
+  font-size: 3.5rem;
+}
+
+.review-c2-container-2{
+  min-width: 60% !important;
+}
+
+.review-c-container{
+  //font-family: 'Nanum Gothic Coding', monospace;
+  font-family: 'Gamja Flower', cursive;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 2.0rem;
+
+  & h1 {
+    font-size: 8vh;
+  }
+
+}
+
+@media (min-width: 1300px) {
+  .review-c-container {
+    max-width: 60%;
+  } 
+}
+
+@media (min-width: 700px) {
+
+
+  .review-c-container{
+    min-width: 700px;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .review-c-container{
+    min-width: 90%;
+  }
+  .review-c-container h1 {
+    font-size: 3vh;
+  }
+  
+  
+}
+
+
+
+
+#review-content-form .v-text-field textarea {
+  height: 30vh;
+  font-size: 1.6rem;
+}
+
+#review-content-form .v-text-field__slot {
+  
+  & label {
+    font-size: 1.5rem;
+  }
+
+  & input {
+    font-size: 1.5rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+#review-content-form .v-label{
+  top: 0px;
+}
+
+#review-content-form .v-counter {
+  font-size: 1.3rem;
+}

@@ -1,0 +1,43 @@
+.review-comment-form-container{
+  & i {
+    font-size: 3.0rem !important;
+  }
+
+}
+.comment-button-container{
+  
+  & .vs-button{
+    font-size: 1.1rem !important;
+  }
+}
+.review-comment-form{
+  
+  width: 100% !important;
+
+  & textarea {
+    font-size: 1.3rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  & .v-counter {
+    font-size: 1.2rem;
+  }
+
+  
+}
+
+.review-comment-detail{
+  
+  & i {
+    font-size: 3.0rem !important;
+  }
+
+  & .comment-content{
+    font-size: 1.2rem;
+  }
+
+  & .vs-button {
+    font-size: 0.8rem !important;
+  }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Gugi&display=swap');
+
+
+.vs-dialog--autoWidth{
+  max-width: 80%;
+}
+
+.vs-table__td {
+  overflow-wrap: anywhere;
+}
+
+.total-review-per-movie-container{
+  //margin-top: 10vh;
+  margin-bottom: auto;
+  font-family: 'Gowun Dodum', sans-serif;
+  & .vs-table__th{
+    font-size: 1.5rem;
+    font-family: 'Yeon Sung', cursive;
+  }
+  
+  & .vs-table__td{
+    font-size: 1.2rem;
+  }
+
+  & .review_title {
+    font-family: 'Gaegu', cursive;
+    font-size: 2.0rem;
+  }
+
+  & .review-detail-per-movie {
+    cursor: pointer;
+  
+  & :hover{
+    color: #1565C0;
+  }
+  
+  }
+
+  .movie-title {
+    font-size: 3.0rem;
+    color: #867AE9;
+  }
+
+  #search-input {
+    
+    & .vs-input {
+      font-size: 1.1rem;
+      width: 40vw;
+      margin-bottom: 0px;
+    }
+  }
+
+  .vs-select {
+    position:relative;
+  }
+
+  .select-container{
+    margin-right: 0.5rem;
+    
+    & .form-select {
+      border-radius: 0.5rem;
+    }
+  }
+
+  .search-icon {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .review-search-container{
+    height: 10vh;
+  }
+}

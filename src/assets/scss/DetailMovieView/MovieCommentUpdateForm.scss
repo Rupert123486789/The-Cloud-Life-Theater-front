@@ -1,0 +1,18 @@
+.movie-comment-form{
+
+  width: 100%;
+  & #commentTextarea{
+    font-size:1.0rem; 
+    background: white;
+    
+    border-radius: 5px;
+  }
+
+  & .v-messages{
+    display: none;
+  }
+
+  & .v-text-field__details{
+    display: none;
+  }
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import '@/assets/scss/bootstrapCustom.scss';
+@import '@/assets/scss/Totalscss.scss';
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+.total-movies-container {
+  font-family: 'Jua', sans-serif;
+
+}
+.container {
+  margin: 0 auto !important;
+}
+
+.page-title {
+  font-family: 'Dongle',sans-serif;
+  font-size: 6rem;
+}
+
+
+.search-btm-container > div {
+  margin-right: 3px;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+  
+  > img {
+    margin-right: 6px;
+  }
+}
+
+.is-selected {
+  color:#00BFF3;
+  border: 1px solid #00BFF3 !important;
+}
+
+.card-box-container{
+  border-radius: 40%;
+
+  img {
+    object-fit: cover;
+    
+  }
+}
+.card-body {
+  background-color: black;
+  height:7vh;
+  color: white;
+  overflow: hidden;
+
+  .card-title-container > h5{
+    font-size: 1rem;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* 라인수 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .rated_content{
+    color: #FFF220;
+  }
+}
+
+.card-title {
+  color:gray;
+  font-size: 1rem;
+}
+
+.card-box-custom {
+  
+  border-radius: 20px;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.vs-pagination {
+  padding: 1rem;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+#searchInput {
+  border-radius: 10px;
+
+  &:focus {
+    outline: 1px solid #00BFF3;
+  }
+}
+
+
+.reset-button {
+  height: 3rem;
+}
+
+.curser-pointer {
+  cursor: pointer;
+}
+
+.vs-switch__text {
+  font-size: 1rem;
+}
+
+@media (min-width: 860px) {
+
+  .total-reviews-container{
+    width:80%
+  }
+  
+}
